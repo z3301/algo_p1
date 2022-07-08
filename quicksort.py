@@ -2,7 +2,7 @@ import numpy as np
 from numpy.random import seed
 from numpy.random import shuffle
 
-# function to  find partition position
+# function to find partition position
 def partition(arr, low, high):
     # set pivot to high
     pivot = arr[high]
@@ -36,7 +36,7 @@ def quicksort(arr, low, high):
 arr = [ 10, 80, 3, 19, 14, 7, 5, 12 ]
 # call quicksort for hard-coded arr
 quicksort(arr, 0, len(arr) - 1)
-print(f'Sorted hard-coded array: {arr}')
+print(f'\nSorted hard-coded array:\n{arr}')
 
 # seed a numpy random number generator
 seed(1)
@@ -48,7 +48,7 @@ shuffle(seq)
 seq_arr = np.array(seq)
 # call quicksort function
 quicksort(seq_arr, 0, len(seq_arr) - 1)
-print(f'Sorted array of 100: {seq_arr}')
+print(f'\nSorted array of 100:\n{seq_arr}')
 
 # seed a new numpy random number generator
 seed(2)
@@ -60,4 +60,4 @@ shuffle(seq)
 seq_arr = np.array(seq)
 # call quicksort function
 quicksort(seq_arr, 0, len(seq_arr) - 1)
-print(f'Sorted array of 1000: {seq_arr}')
+print(f'\nSorted array of 1000:\n{seq_arr}')
