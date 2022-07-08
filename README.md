@@ -1,6 +1,6 @@
 # Dan Zimmerman, Z23590872
 ## COT 4400 - Design and Analysis of Algorithms
-## Project 1, Summer 2022. 
+## Project 1, Summer 2022
 
 
 ### Quicksort Algorithm: Code, Results, and Analysis
