@@ -35,6 +35,8 @@ def quicksort(arr, low, high):
 
 # hard-coded array
 arr = [ 10, 80, 3, 19, 14, 7, 5, 12 ]
+# print unsorted array
+print(f'\nUnsorted hard-coded array:\n{arr}')
 # call quicksort for hard-coded arr
 quicksort(arr, 0, len(arr) - 1)
 print(f'\nSorted hard-coded array:\n{arr}')
