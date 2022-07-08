@@ -29,7 +29,7 @@ def quicksort(arr, low, high):
         piv = partition(arr, low, high)
         # recursive call to sort smaller elements
         quicksort(arr, low, piv - 1)
-        # recursive call to sort larger elements
+        # recursive call to sort larger elements  
         quicksort(arr, piv + 1, high)
 
 # hard-coded array
