@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.random import seed
 from numpy.random import shuffle
-np.set_printoptions(linewidth=125)
+np.set_printoptions(linewidth=120)
 
 # function to find partition position
 def partition(arr, low, high):
