@@ -1,6 +1,7 @@
 import numpy as np
 from numpy.random import seed
 from numpy.random import shuffle
+np.set_printoptions(linewidth=125)
 
 # function to find partition position
 def partition(arr, low, high):
@@ -46,6 +47,8 @@ seq = [i for i in range(100)]
 shuffle(seq)
 # convert sequence list to numpy array
 seq_arr = np.array(seq)
+# print unsorted array
+print(f'\nUnsorted array of 100:\n{seq_arr}')
 # call quicksort function
 quicksort(seq_arr, 0, len(seq_arr) - 1)
 print(f'\nSorted array of 100:\n{seq_arr}')
@@ -58,6 +61,8 @@ seq = [i for i in range(1000)]
 shuffle(seq)
 # convert sequence list to numpy array
 seq_arr = np.array(seq)
+# print unsorted array
+print(f'\nUnsorted array of 1000:\n{seq_arr}')
 # call quicksort function
 quicksort(seq_arr, 0, len(seq_arr) - 1)
 print(f'\nSorted array of 1000:\n{seq_arr}')
